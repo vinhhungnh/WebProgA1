@@ -1,0 +1,24 @@
+header{
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+li{
+    display: inline;
+    padding: 8px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.book{
+    width: 150px;
+    height: 240px;
+    padding: 50px;
+}
+
+#category{
+    text-align: center;
+}
