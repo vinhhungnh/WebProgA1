@@ -24,46 +24,56 @@
 
             <form onsubmit="return false">
                 <div>
-                    <label for="purpose">Purpose of Contact:</label>
-                    <select name='santas-list', id="purpose">
+                    <div><label for="purpose">Purpose of Contact:</label></div>
+                    <div>
+                        <select name='santas-list', id="purpose">
                         <option selected>I want to sell books</option>
                         <option>I want to buy books</option>
                     </select>
+                    </div>
                 </div>
 
                 <div>
-                    <label for="name">Name:</label>
-                    <input required type="text", id="name", name="name", maxlength="50">
+                    <div><label for="name">Name:</label></div>
+                    <div><input required type="text", id="name", name="name", maxlength="50"></div>
                 </div>
 
                 <div>
-                    <label for="email">Email:</label>
-                    <input required type="email", id="email", name="email">
+                    <div><label for="email">Email:</label></div>
+                    <div><input required type="email", id="email", name="email"></div>
                 </div>
                   
                 <div>
-                    <label for="phone">Phone number:</label>
-                    <input required type="tel", id="phone", name="phone", pattern="[0-9]{10}">
+                    <div><label for="phone">Phone number:</label></div>
+                    <div><input required type="tel", id="phone", name="phone", pattern="[0-9]{10}"></div>
                 </div>
                 
                 <div>
-                    <label for="newsletter">Do you want to receive our weekly newsletter? </label>
-                    <input type="radio", name="newsletter", value="email", id="newsletter" checked> Yes 
-                    <input type="radio", name="newsletter", value="phone", id="newsletter"> No
+                    <div><label for="newsletter">Do you want to receive our weekly newsletter? </label></div>
+                    <div>
+                        <input type="radio", name="newsletter", value="email", id="newsletter" checked> Yes 
+                        <input type="radio", name="newsletter", value="phone", id="newsletter"> No
+                    </div>
                 </div>
 
                 <div>
-                    <label for="method">Contact method:</label>
-                    <input type="checkbox", name="method", value="email", id="method"> Email 
-                    <input type="checkbox", name="method", value="phone", id="method"> Phone
+                    <div><label for="method">Contact method:</label></div>
+                    <div>
+                        <input type="checkbox", name="method", value="email", id="method"> Email 
+                        <input type="checkbox", name="method", value="phone", id="method"> Phone
+                    </div>
                 </div>
 
                 <div>
-                    <label for="note">Note</label>
-                    <textarea id="note" cols="70" rows="9"></textarea>
+                    <div><label for="note">Note</label></div>
+                    <div><textarea id="note" cols="60" rows="9"></textarea></div>
                 </div>
-                <button type="submit">Submit</button>
-                <button type="reset">Clear</button>
+
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>
+                </div>
+                
             </form>
         </main>
         <footer>

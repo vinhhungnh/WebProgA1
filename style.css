@@ -3,6 +3,10 @@ header, footer{
     margin: auto;
 }
 
+main{
+    height: 100%;
+}
+
 h1{
     text-align: center;
 }
@@ -93,13 +97,14 @@ h3{
 
 
 form{
-    height:500px;
+    height:100%;
     margin: auto;
     width: 30%;
 }
 
 form div{
-    margin: 10px
+    display: flex;
+    margin: 5px;
 }
 
 ul.breadcrumb {
@@ -170,4 +175,32 @@ ul.breadcrumb li a:hover {
 #ref{
     color: grey;
     font-style: italic;
+}
+
+@media screen and (max-width: 960px) {
+    header .nav a{
+        width: 90%;
+        padding: 10px 10px;
+        float: none;
+        display: block;
+    }
+    .book-list{
+        display: block;
+    }
+
+    form{
+        width: 70%;
+        height: auto;
+        margin: auto;
+    }
+    form div{
+        display: block;
+        width: 150%;
+    }
+    .flex-box-1{
+        display: block;
+    }
+    .flex-box-2{
+        display: flex;
+    }
 }
