@@ -77,10 +77,6 @@ h3{
     display: flex;
 }
 
-/* .book-list div{
-    border-bottom: 1px solid black;
-} */
-
 #logo{
     width: 200px;
 }
@@ -143,6 +139,21 @@ ul.breadcrumb li a:hover {
     margin: auto;
 }
 
+.flex-box-1 button{
+    background-color: brown;
+    border: 3px solid brown;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.flex-box-1 button:hover{
+    background-color: white;
+    color: brown;
+}
+
 .flex-box-1 img{
     width:250px;
     max-width: 100%;
@@ -178,8 +189,17 @@ ul.breadcrumb li a:hover {
 }
 
 @media screen and (max-width: 960px) {
+    header{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer{
+        width: 100%;
+    }
+
     header .nav a{
-        width: 90%;
+        width: 100%;
         padding: 10px 10px;
         float: none;
         display: block;
@@ -198,6 +218,7 @@ ul.breadcrumb li a:hover {
         width: 150%;
     }
     .flex-box-1{
+        text-align: center;
         display: block;
     }
     .flex-box-2{
