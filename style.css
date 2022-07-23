@@ -96,3 +96,62 @@ form{
 form div{
     margin: 10px
 }
+
+/* Style the list */
+ul.breadcrumb {
+    text-align: center;
+    padding: 15px 10px;
+    list-style: none;
+}
+  
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 20px;
+}
+  
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 5px;
+    color: black;
+    content: ">\00a0";
+}
+  
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: brown;
+    text-decoration: none;
+}
+  
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: black;
+}
+
+.flex-box-1{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.flex-box-1 div{
+    margin: auto;
+}
+
+.flex-box-1 img{
+    width:250px;
+    margin:10px;
+}
+
+.flex-box-2 img{
+    width:200px;
+}
+
+.description{
+    width: 50%;
+    margin: auto;
+}
+
+.description h1{
+    text-align: left;
+}
