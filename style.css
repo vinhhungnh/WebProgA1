@@ -11,6 +11,11 @@ h2{
     font-size: 28px;
 }
 
+h3{
+    font-size: 18px;
+    color: black;
+}
+
 .nav{
     background-color: black;
     overflow: hidden;
@@ -35,8 +40,22 @@ h2{
     color: black;
 }
 
+/* .category{
+    display: flex;
+} */
+.category{
+    width: 75%;
+    margin: auto auto 30px;
+    text-align: center;
+}
+
 .category h2{
-    font-size: 25px;
+    font-size: 28px;
+    color: brown;
+}
+
+.category a{
+    text-decoration: none;
 }
 
 .category h2 a{
@@ -47,6 +66,17 @@ h2{
 }
 
 
+
+.book-list{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+/* .book-list div{
+    border-bottom: 1px solid black;
+} */
+
 #logo{
     width: 200px;
 }
@@ -55,16 +85,12 @@ h2{
     width: 250px;
     height: 380px;
     margin: 50px;
+    margin-bottom: 10px;
     box-shadow: 10px 10px #d9d9d9;
     border: 1px solid black
 
 }
 
-.category{
-    width: 75%;
-    margin: auto;
-    text-align: center;
-}
 
 form{
     height:500px;
