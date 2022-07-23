@@ -1,6 +1,5 @@
 header, footer{
     width: 50%;
-    height: 200px;
     margin: auto;
 }
 
@@ -48,26 +47,6 @@ h2{
 }
 
 
-
-/* nav{
-    padding: auto;
-    height: 30px;
-    text-align: right;
-}
-
-nav ul{
-    background-color: black;
-    height: ;
-}
-
-nav li{
-    margin:15px;
-    font-size: 20px;
-    display: inline;
-} */
-
-
-
 #logo{
     width: 200px;
 }
@@ -97,33 +76,28 @@ form div{
     margin: 10px
 }
 
-/* Style the list */
 ul.breadcrumb {
     text-align: center;
     padding: 15px 10px;
     list-style: none;
 }
   
-/* Display list items side by side */
 ul.breadcrumb li {
     display: inline;
     font-size: 20px;
 }
   
-/* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumb li+li:before {
     padding: 5px;
     color: black;
     content: ">\00a0";
 }
   
-/* Add a color to all links inside the list */
 ul.breadcrumb li a {
     color: brown;
     text-decoration: none;
 }
   
-/* Add a color on mouse-over */
 ul.breadcrumb li a:hover {
     color: black;
 }
@@ -140,11 +114,22 @@ ul.breadcrumb li a:hover {
 
 .flex-box-1 img{
     width:250px;
+    max-width: 100%;
     margin:10px;
+    border: 1px solid black;
+}
+
+.flex-box-1 #book-img img{
+    box-shadow: 5px 5px black;
 }
 
 .flex-box-2 img{
     width:200px;
+    max-width: 100%;
+}
+
+.flex-box-3{
+    max-width: 100%;
 }
 
 .description{
@@ -154,4 +139,9 @@ ul.breadcrumb li a:hover {
 
 .description h1{
     text-align: left;
+}
+
+#ref{
+    color: grey;
+    font-style: italic;
 }
