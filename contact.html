@@ -4,5 +4,76 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
+
+    <body>
+        <header>
+            <img id="logo" src="images/logo.png" alt="Logo">
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="category.html">Fiction</a>
+                <a href="category.html">Educational</a>
+                <a href="category.html">Historical</a>
+                <a href="category.html">Thriller</a>
+            </div>
+        </header>
+
+        <main>
+            <h1>Contact Us</h1>
+
+            <form onsubmit="return false">
+                <div>
+                    <label for="purpose">Purpose of Contact:</label>
+                    <select name='santas-list', id="purpose">
+                        <option selected>I want to sell books</option>
+                        <option>I want to buy books</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="name">Name:</label>
+                    <input required type="text", id="name", name="name", maxlength="50">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input required type="email", id="email", name="email">
+                </div>
+                  
+                <div>
+                    <label for="phone">Phone number:</label>
+                    <input required type="tel", id="phone", name="phone", pattern="[0,9]">
+                </div>
+                
+                <div>
+                    <label for="newsletter">Do you want to receive our weekly newsletter? </label>
+                    <input type="radio", name="newsletter", value="email", id="newsletter" checked> Yes 
+                    <input type="radio", name="newsletter", value="phone", id="newsletter"> No
+                </div>
+
+                <div>
+                    <label for="method">Contact method:</label>
+                    <input type="checkbox", name="method", value="email", id="method"> Email 
+                    <input type="checkbox", name="method", value="phone", id="method"> Phone
+                </div>
+
+                <div>
+                    <label for="note">Note</label>
+                    <textarea id="note" cols="70" rows="9"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </form>
+        </main>
+        <footer>
+            <div class="nav">
+                <a href="#">About Us</a>
+                <a href="#">Privacy Policy
+                <a href="#">Terms</a>
+                <a href="#">Copyright</a>
+                <a href="contact.html" class="active">Contact Us</a>
+            </div>
+        </footer>
+    </body>
 </html>
