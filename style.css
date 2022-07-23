@@ -47,9 +47,6 @@ h3{
     color: black;
 }
 
-/* .category{
-    display: flex;
-} */
 .category{
     width: 75%;
     margin: auto auto 30px;
@@ -209,6 +206,11 @@ ul.breadcrumb li a:hover {
     }
     .book-list{
         display: block;
+    }
+    .book{
+        margin: auto;
+        width: 75%;
+        height: 75%;
     }
 
     form{
