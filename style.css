@@ -3,6 +3,9 @@ header, footer{
     margin: auto;
 }
 
+p{
+    text-align: justify;
+}
 main{
     height: 100%;
 }
@@ -223,5 +226,9 @@ ul.breadcrumb li a:hover {
     }
     .flex-box-2{
         display: flex;
+    }
+
+    .description{
+        width: 75%;
     }
 }
