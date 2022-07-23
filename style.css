@@ -1,12 +1,21 @@
-header{
-    text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
+header, footer{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+}
+
+h2{
+    font-size: 28px;
+}
+
+nav{
+    text-align: right;
 }
 
 li{
+    font-size: 18px;
     display: inline;
-    padding: 8px;
+    margin: 10px;
 }
 
 .logo{
@@ -14,11 +23,16 @@ li{
 }
 
 .book{
-    width: 150px;
-    height: 240px;
-    padding: 50px;
+    width: 250px;
+    height: 380px;
+    margin: 50px;
+    box-shadow: 5px 5px #d9d9d9;
+    border: 1px solid black
+
 }
 
-#category{
+.category{
+    width: 75%;
+    margin: auto;
     text-align: center;
 }
